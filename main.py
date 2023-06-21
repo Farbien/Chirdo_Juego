@@ -76,15 +76,6 @@ with sqlite3.connect(RUTA_BASE.format("puntajes.db")) as conexion:
         agregar_puntaje("RENATON", 150, 1, 180)
         agregar_puntaje("MATIASQ", 150, 2, 180)
 
-# Consulta los registros de la tabla puntajes
-with sqlite3.connect(RUTA_BASE.format("puntajes.db")) as conexion:
-    cursor = conexion.cursor()
-    cursor.execute("SELECT * FROM puntajes")
-    registros = cursor.fetchall()
-
-# Imprime los registros obtenidos
-for registro in registros:
-    print(registro)
 
 # mostrar mejores 8 puntajes de la tabla puntajes
 def mostrar_mejores_puntajes(nombre_elegido=""):
