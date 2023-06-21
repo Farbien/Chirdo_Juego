@@ -258,22 +258,6 @@ def comenzar():
             menu_principal()
 
 
-        # Almacenar valores
-        if tiburon.tiempo == 80 or tiburon.vidas == 0:
-            tu_puntaje = tiburon.puntos
-            tu_tiempo = tiburon.tiempo
-            tu_vidas = tiburon.vidas
-            Tu_nombre = "ANONIMO"
-
-            tiburon.puntos = 0
-            tiburon.vidas = 5
-            tiburon.tiempo = pygame.time.get_ticks()
-            tiburon.nivel = 1
-
-            return Tu_nombre, tu_puntaje, tu_vidas, tu_tiempo
-
-        
-
 
         if posicion_tiburon:
             window.blit(tiburon.image, tiburon.rect.topleft)
