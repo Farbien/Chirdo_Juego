@@ -29,7 +29,7 @@ algoritmo_dificultad = 1 # (0.01 a 5) incremento dificultades
 pez_amarillo_img = pygame.image.load(RUTA_BASE.format("imagenes\\pez_amarillo.png"))
 pez_amarillo_img = pygame.transform.scale(pez_amarillo_img, (40, 40))
 collision_pez_amarillo = pygame.mixer.Sound(RUTA_BASE.format("Sonidos\\pez_amarillo.mp3"))
-collision_pez_amarillo_imagen = pygame.image.load(RUTA_BASE.format("\imagenes\\mas10.png"))
+collision_pez_amarillo_imagen = pygame.image.load(RUTA_BASE.format("imagenes\\mas10.png"))
 collision_pez_amarillo_imagen = pygame.transform.scale(collision_pez_amarillo_imagen, (40, 40))
 tiempo_inicio_colision_pez_amarillo = 0
 
