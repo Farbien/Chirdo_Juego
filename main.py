@@ -207,7 +207,6 @@ tiburon = Tiburon()
 
 peces_amarillos = []
 peces_rojos = []
-#peces_verdes = []
 
 for pez in range(6):
     pez_amarillo_x = random.choice([-40, ANCHO_VENTANA])
@@ -415,13 +414,6 @@ def comenzar():
             return Tu_nombre, tu_puntaje, tu_vidas, tu_tiempo
         
         
-
-        
-
-        
-         # Colisión con pez verde
-
-
         # PARA VER RECTANGUNLOS
         #pygame.draw.rect(window, COLOR_NEGRO, tiburon.boca_rect)   # BOCA TIBURON
         #pygame.draw.rect(window, (255, 0, 0), tiburon.rect, 2)   # TIBURON
