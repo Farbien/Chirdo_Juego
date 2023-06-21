@@ -131,20 +131,6 @@ def mostrar_mejores_puntajes(nombre_elegido=""):
         pygame.display.flip()
 
 
- 
-
-
-
-
-def mostrar_texto(texto):
-    font = pygame.font.Font(None, 36)
-    render_texto = font.render(texto, True, COLOR_BLANCO)
-    rect_texto = render_texto.get_rect(center=(ANCHO_VENTANA // 2, ALTO_VENTANA // 2))
-    window.blit(render_texto, rect_texto)
-    pygame.display.flip()
-    pygame.time.wait(3000)
-    
-
 def pedir_nombre(nombre, puntos, vidas, tiempo):
     logo = pygame.image.load(RUTA_BASE.format("imagenes\\logo.PNG"))
     logo = pygame.transform.scale(logo, (600, 400))
