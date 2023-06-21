@@ -23,7 +23,7 @@ fondo = pygame.transform.scale(fondo, (ANCHO_VENTANA, ALTO_VENTANA))
 
 tiempo_colision = 3000
 
-algoritmo_dificultad = 1 # (0.01 a 5) incremento dificultades
+algoritmo_dificultad = 1.8 # (0.01 a 5) incremento dificultades
 
 
 pez_amarillo_img = pygame.image.load(RUTA_BASE.format("imagenes\\pez_amarillo.png"))
