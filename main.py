@@ -195,7 +195,7 @@ def pedir_nombre(nombre, puntos, vidas, tiempo):
                         # Agregar el carácter ingresado al texto
                         input_text += event.unicode
 
-                eleccion = font.render("Elie tu nombre: {}".format(input_text), True, COLOR_ROJO)
+                eleccion = font.render("Elige tu nombre: {}".format(input_text), True, COLOR_ROJO)
 
 
 
