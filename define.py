@@ -6,7 +6,7 @@ ALTO_VENTANA = 600
 ALTURA_ENCABEZADO = 100
 
 FPS = 90
-RUTA_BASE = ".vscode\\PYGAME\\JUEGO\\{0}"
+RUTA_BASE = "{0}"
 
 window = pygame.display.set_mode((ANCHO_VENTANA, ALTO_VENTANA))
 
